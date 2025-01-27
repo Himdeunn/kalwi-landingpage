@@ -1,50 +1,99 @@
-# React + TypeScript + Vite
+# Kalwi Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Vercel Deployment](https://img.shields.io/badge/vercel-deployed-blue?logo=vercel)](https://kalwi-landingpage.vercel.app/)
+[![GitHub Repository](https://img.shields.io/badge/github-repo-lightgrey?logo=github)](https://github.com/Himdeunn/kalwi-landingpage)
 
-Currently, two official plugins are available:
+## 🌟 Overview
+Kalwi Landing Page is a modern and visually appealing landing page designed to showcase features, services, or products in a professional manner. The project is deployed on Vercel and built with best practices in modern web development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔗 Links
+- **Live Site**: [kalwi-landingpage.vercel.app](https://kalwi-landingpage.vercel.app/)
+- **Repository**: [GitHub](https://github.com/Himdeunn/kalwi-landingpage)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 📋 Features
+- **Responsive Design**: Fully responsive and mobile-friendly layout.
+- **Modern UI**: Clean and professional design with smooth animations.
+- **Optimized Performance**: Fast-loading pages with minimal resources.
+- **Accessible**: Follows web accessibility guidelines to ensure usability for all.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## 🚀 Technologies Used
+- **Framework**: [React.js](https://react.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Transpiler**: [SWC](https://swc.rs/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Deployment**: [Vercel](https://vercel.com/)
+
+---
+
+## 🛠️ Getting Started
+Follow the steps below to run this project locally:
+
+### Prerequisites
+- Node.js installed ([Download Node.js](https://nodejs.org/))
+- Git installed ([Download Git](https://git-scm.com/))
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Himdeunn/kalwi-landingpage.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd kalwi-landingpage
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development
+Start the development server:
+```bash
+npm run dev
+```
+Visit `http://localhost:3000` to view the app locally.
+
+---
+
+## 📂 Project Structure
+```
+kalwi-landingpage/
+├── public/
+├── src/
+│   ├── components/    # Reusable components
+│   ├── pages/         # Main pages
+│   ├── assets/        # Static assets (images, icons, etc.)
+│   └── styles/        # Global and component-specific styles
+├── package.json
+├── README.md
+└── ...
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🧑‍💻 Contributing
+Contributions are welcome! If you want to contribute, follow these steps:
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Create a Pull Request.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👨‍💻 Author
+- **Himdeunn**
+  - [GitHub](https://github.com/Himdeunn)
+  - [Portfolio](https://himdeunn.vercel.app/)
