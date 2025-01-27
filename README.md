@@ -96,4 +96,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 - **Himdeunn**
   - [GitHub](https://github.com/Himdeunn)
-  - [Portfolio](https://himdeunn.vercel.app/)
+  - [Portfolio](https://himdeunn.my.id/)
